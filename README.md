@@ -9,7 +9,7 @@ It is possible to move the camera up and down with a small servo attached to the
 
 ## Hardware
 All necessary parts are listed below in the parts section with links to order. 
-As chassis, I use the Joy-IT ROBOT CAR KIT 01. This is easy to mount. Just follow the assembling instructions. The two motors left and right are connected in [parallel](Motor.JPG). Make sure that they move in the same direction when powered.
+As chassis, I use the Joy-IT ROBOT CAR KIT 01. This is easy to mount. Just follow the assembling instructions. The two motors left and right are connected in [parallel](Motor.jpg). Make sure that they move in the same direction when powered.
 
 
 As motor driver the L298N is used. The left/right motor is the connected to the two outputs on the motor driver. Make sure that direction is right for forward/backwards for both sides. If necessary change the cable connection. 
