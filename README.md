@@ -41,7 +41,7 @@ To start the stream just pess the "Start Stream" button. You can move forwards/b
 ![Interface](Web-Interface.png)
 
 ## ESP32CAM pinout
-![ESP32-CAM-pinout-new.png]([ESP32-CAM-pinout-new.png "pinout"](https://github.com/PepeTheFroggie/ESP32CAM_RCTANK/blob/master/ESP32-CAM-pinout-new.png))
+![ESP32-CAM-pinout-new.png](https://github.com/PepeTheFroggie/ESP32CAM_RCTANK/blob/master/ESP32-CAM-pinout-new.png)
 
 # Parts
 - ESP32-CAM [Link](https://www.reichelt.de/entwicklerboards-esp32-kamera-2mp-25--debo-cam-esp32-p266036.html?&nbc=1)
