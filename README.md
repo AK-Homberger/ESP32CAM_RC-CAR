@@ -1,7 +1,6 @@
-# ESP32-CAM_TANK
+# ESP32CAM_RC-CAR
 
-Esp32 controlling tracked vehicle while streaming video.
-Serial console tells you where to connect. And use your own wifi credentials, not mine.
+This repository shows how to build a WLAN controlled RC Car with an ESP32CAM.
 
 Wiring:
 ![esp32cam.jpg](esp32cam.jpg "Wiring")
