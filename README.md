@@ -15,7 +15,7 @@ The motor driver is also provideing the 5 Volt for the ESP32CAM. Ther power supp
 
 The ESP32CAM is located in a 3D printed housing. The files are available on Thingiverse (see Parts section below). For mounting the housing to chassis you can either use the round bottom plate from Thingiverse or you can use my [mount](https://github.com/AK-Homberger/ESP32CAM_RC-CAR/blob/master/ESP32Cam-Mount.stl) instead.
 
-The components have to be connected as shown in the diagram. As battery you can use anything between 9 to 12 Volt. I'm using a lithium polomer accu from a RC helicopter.
+The components have to be connected as shown in the diagram. As battery you can use anything between 7.4 to 11.1 Volt. I'm using a lithium polomer accu from a RC helicopter.
 
 ![Wiring](ESP32-CAM-RC-Car.jpg)
 
@@ -44,5 +44,7 @@ After initial programming you can du uploads via OTA.
 - Car Kit [Link](https://www.reichelt.de/roboter-fahrgestell-kit-fuer-alle-arduino-systeme-robot-car-kit-01-p219024.html?&nbc=1)
 - Motor Driver [Link](https://www.reichelt.de/entwicklerboards-motodriver2-l298n-debo-motodriver2-p202829.html?&nbc=1)
 - 7805 [Link](https://www.reichelt.de/festspannungsregler-5-v-1-5-a-to-220-3-ua-7805-ckcs-p189073.html?&nbc=1)
+- Switch [Link](https://www.reichelt.de/miniatur-kippschalter-ein-aus-ein-3-a-250-v-goobay-10022-p285989.html?&nbc=1)
+- Akku [Link](https://www.reichelt.de/akku-pack-li-polymer-7-4-v-900-mah-rd-xt-900-s2-p336955.html?&nbc=1)
 - USB to Serial Adapter [Link1](https://www.reichelt.de/entwicklerboards-microusb-buchse-auf-uart-ft232-debo-musb2uart-3-p266053.html?&nbc=1) or [Link2](https://www.amazon.de/dp/B07R17BMTL/ref=sspa_dk_detail_2?psc=1&pd_rd_i=B07R17BMTL&pd_rd_w=ctPSK&pf_rd_p=4060291c-d237-411a-a3fe-4e44df687a4d&pd_rd_wg=enKhZ&pf_rd_r=B02DJZMKW4QRHKBN627Q&pd_rd_r=829304f2-0444-4fec-88dc-e2af9109243b&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExRVI5V0dQMjFTMjg2JmVuY3J5cHRlZElkPUEwOTIzOTg1MUhUSVNEQ1M2T0lSVSZlbmNyeXB0ZWRBZElkPUEwNTM1MjQ4SldZRlhJQlI0UzNVJndpZGdldE5hbWU9c3BfZGV0YWlsJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==)
 - 3D Print Camera Mount [Link](https://www.thingiverse.com/thing:3579507)
