@@ -20,7 +20,7 @@ The components have to be connected as shown in the diagram. As battery you can 
 ![Wiring](ESP32-CAM-RC-Car.jpg)
 
 ## Software
-The RC Car ![Code](https://github.com/AK-Homberger/ESP32CAM_RC-CAR/blob/master/ESP32CAM-RC-Car/ESP32CAM-RC-Car.ino) is prepared for the Arduino IDE. To intall the sketch, download the whole repositori and then open the file "ESP32CAM-RC-Car.ino" in the IDE. Then edit the code to adjust the WLAN credential according to your local settings. That's it.
+The RC Car ![Code](https://github.com/AK-Homberger/ESP32CAM_RC-CAR/blob/master/ESP32CAM-RC-Car/ESP32CAM-RC-Car.ino) is prepared for the Arduino IDE. To intall the sketch, download the whole repository and then open the file "ESP32CAM-RC-Car.ino" in the IDE. Then edit the code to adjust the WLAN credential according to your local settings. That's it. As board please use the "ESP32 Wrover Module" in Arduino IDE. And please make sure you have the ESP32 board URL provided in the prefeneces (https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json).
 
 You need an external (FTDI) programmer to install the (initial) sketch on the ESP32-CAM module. You have to set the voltage of the adapter to 5 Volt.
 
@@ -28,7 +28,7 @@ You need an external (FTDI) programmer to install the (initial) sketch on the ES
 
 For programming you have to connect IO0 to GND, RX/TX (crossed) and 5V/GND. If you have the power supply already connected, then do not connect the 5V cable from the adapter. Then press the "RST" button on the ESP32-CAM. After that, you can start the upload process within the Arduino IDE (with FTDI USB-Serial port selected). For normal start open IO0 from GND and press "RST" again. 
 
-After initial programming you can du uploads via OTA.
+After initial programming you can du uploads via OTA. Device name "RC-Car".
 
 
 ## Web Control
