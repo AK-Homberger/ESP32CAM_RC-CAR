@@ -1,11 +1,11 @@
 # ESP32CAM RC Car
 
 This repository shows how to build a WLAN controlled RC Car with an ESP32CAM.
-With a web interface you can control the car and the camera view is shown in the browser. It is possible to move the camera up and down with a small servo attached to the housing.
+With a web interface you can control the car and the camera view is shown in the browser. It is possible to move the camera up and down with a small servo attached to the housing. Her is a small [Video](https://www.dropbox.com/s/yz9jac4miu72km5/IMG_2094.MOV?dl=0).
 
 ![RC-Car1](RC-Car1.JPG)
 
-[Video](https://www.dropbox.com/s/yz9jac4miu72km5/IMG_2094.MOV?dl=0)
+
 
 ## Hardware
 All necessary parts are listed below in the parts section with links to order. 
