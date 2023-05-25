@@ -3,8 +3,7 @@
 This repository shows how to build a WLAN controlled RC Car with an ESP32CAM.
 
 Wiring:
-![esp32cam.jpg](esp32cam.jpg "Wiring")
-For the $2 motor dirver search "L298N Motor Driver".
+![esp32cam.jpg](ESP32-CAM-RC-Car.jpg)
 
 Control:
 ![DSC02367.jpg](DSC02367.jpg "Control")
