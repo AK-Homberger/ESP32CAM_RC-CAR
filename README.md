@@ -1,13 +1,18 @@
 # ESP32CAM RC Car
 
 This repository shows how to build a WLAN controlled RC Car with an ESP32CAM.
+With a web interface you can control the car and the camery view is shown in the browser. It is possible to mover the camera up and down with a small servo attached to the housing. 
 
 ![RC-Car1](RC-Car1.JPG)
 
 ## Hardware
 All necessary parts are listed below in the parts section with links to order. 
-As chassis I use the Joy-IT ROBOT CAR KIT 01. This is easy to mount. Just follow the assembling instructions.
+As chassis, I use the Joy-IT ROBOT CAR KIT 01. This is easy to mount. Just follow the assembling instructions. As motor driver the L298N is used.
+The motor driver is also provideing the 5 Volt for the ESP32CAM. Ther power supply for the servo is done with an extra 7805 voltage regulator. This was necessary due to stability problems if ESP and Servo is supplied directly from the motor driver.
 
+The ESP32CAM is located in a 3D printed housing. The files are available on Thingiverse (see Parts section below). For mounting the housing to chassis you can either use the round bottom plate from Thingiverse or you can use my [mount(https://github.com/AK-Homberger/ESP32CAM_RC-CAR/blob/master/ESP32Cam-Mount.stl) instead.
+
+The components have to be connected as shown in the diagram. As battery you can use anything between 9 to 12 Volt. I'm using a lithium polomer accu from a RC helicopter.
 
 ![Wiring](ESP32-CAM-RC-Car.jpg)
 
