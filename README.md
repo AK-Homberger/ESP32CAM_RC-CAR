@@ -4,6 +4,13 @@ This repository shows how to build a WLAN controlled RC Car with an ESP32CAM.
 
 ![RC-Car1](RC-Car1.JPG)
 
+## Hardware
+All necessary parts are listed below in the parts section with links to order. 
+As chassis I use the Joy-IT ROBOT CAR KIT 01. This is easy to mount. Just follow the assembling instructions.
+
+
+![Wiring](ESP32-CAM-RC-Car.jpg)
+
 ## Software
 The RC Car ![Code](https://github.com/AK-Homberger/ESP32CAM_RC-CAR/blob/master/ESP32CAM-RC-Car/ESP32CAM-RC-Car.ino) is prepared for the Arduino IDE. To intall the sketch, download the whole repositori and then open the file "ESP32CAM-RC-Car.ino" in the IDE. Then edit the code to adjust the WLAN credential according to your local settings. That's it.
 
@@ -15,10 +22,6 @@ For programming you have to connect IO0 to GND, RX/TX (crossed) and 5V/GND. If y
 
 After initial programming you can du uploads via OTA.
 
-
-
-## Wiring
-![Wiring](ESP32-CAM-RC-Car.jpg)
 
 ## Web Control
 ![Interface](Web-Interface.png)
