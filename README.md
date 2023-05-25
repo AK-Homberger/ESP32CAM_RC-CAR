@@ -49,6 +49,7 @@ To start the stream, just pess the "Start Stream" button. You can move forwards/
 - ESP32-CAM [Link](https://www.reichelt.de/entwicklerboards-esp32-kamera-2mp-25--debo-cam-esp32-p266036.html?&nbc=1)
 - Car Kit [Link](https://www.reichelt.de/roboter-fahrgestell-kit-fuer-alle-arduino-systeme-robot-car-kit-01-p219024.html?&nbc=1)
 - Motor Driver [Link](https://www.reichelt.de/entwicklerboards-motodriver2-l298n-debo-motodriver2-p202829.html?&nbc=1)
+- Servo [Link](https://www.reichelt.de/servo-high-end-micro-analog-jamara-033212-p238316.html?&nbc=1)
 - 7805 [Link](https://www.reichelt.de/festspannungsregler-5-v-1-5-a-to-220-3-ua-7805-ckcs-p189073.html?&nbc=1)
 - Switch [Link](https://www.reichelt.de/miniatur-kippschalter-ein-aus-ein-3-a-250-v-goobay-10022-p285989.html?&nbc=1)
 - Akku [Link](https://www.reichelt.de/akku-pack-li-polymer-7-4-v-900-mah-rd-xt-900-s2-p336955.html?&nbc=1)
