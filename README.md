@@ -9,9 +9,12 @@ It is possible to move the camera up and down with a small servo attached to the
 
 ## Hardware
 All necessary parts are listed below in the parts section with links to order. 
-As chassis, I use the Joy-IT ROBOT CAR KIT 01. This is easy to mount. Just follow the assembling instructions. The two motors left and right are connected in [parallel](Motor.jpg). Make sure that they move in the same direction when powered.
 
-As motor driver the L298N is used. The left/right motor is the connected to the two outputs on the motor driver. Make sure that direction is right for forward/backwards for both sides. If necessary change the cable connection. 
+As chassis, I use the Joy-IT ROBOT CAR KIT 01. This is easy to mount. Just follow the assembling instructions.
+
+On the chassis then you can screw the camera to the top plate using one of the pre-drilled holes. The motor driver an the battery I simply connected with double sided tape.
+
+The two motors left and right are connected (soldered) in [parallel](Motor.jpg). Make sure that they move in the same direction when powered. As motor driver the L298N is used. The left/right motor is the connected to the two outputs on the motor driver. Make sure that direction is right for forward/backwards for both sides. If necessary change the cable connection. 
 
 The motor driver is also providing the 5 Volt for the ESP32CAM. Ther power supply for the servo is done with an extra 7805 voltage regulator. This was necessary due to stability problems if ESP and Servo is supplied directly from the motor driver.
 
