@@ -23,7 +23,7 @@ For programming you have to connect IO0 to GND, RX/TX (crossed) and 5V/GND. If y
 After initial programming you can du uploads via OTA.
 
 # Parts
-- ESP32-CAM [Link](https://www.reichelt.de/index.html?ACTION=446&LA=2&nbc=1&q=esp32cam)
+- ESP32-CAM [Link](https://www.reichelt.de/entwicklerboards-esp32-kamera-2mp-25--debo-cam-esp32-p266036.html?&nbc=1)
 - Car Kit [Link](https://www.reichelt.de/roboter-fahrgestell-kit-fuer-alle-arduino-systeme-robot-car-kit-01-p219024.html?&nbc=1)
 - Motor Driver [Link](https://www.reichelt.de/entwicklerboards-motodriver2-l298n-debo-motodriver2-p202829.html?&nbc=1)
 - 7805 [Link](https://www.reichelt.de/festspannungsregler-5-v-1-5-a-to-220-3-ua-7805-ckcs-p189073.html?&nbc=1)
