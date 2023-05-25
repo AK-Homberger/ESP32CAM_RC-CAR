@@ -1,4 +1,4 @@
-# ESP32CAM RC-CAR
+# ESP32CAM RC Car
 
 This repository shows how to build a WLAN controlled RC Car with an ESP32CAM.
 
