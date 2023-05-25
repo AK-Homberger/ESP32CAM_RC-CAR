@@ -18,7 +18,7 @@ The two motors left and right are connected (soldered) in [parallel](Motor.jpg).
 
 The motor driver is also providing the 5 Volt for the ESP32CAM. Ther power supply for the servo is done with an extra 7805 voltage regulator. This was necessary due to stability problems if ESP and Servo is supplied directly from the motor driver.
 
-The ESP32CAM is located in a 3D printed housing. The files are available on [Thingiverse](https://www.thingiverse.com/thing:3579507). For mounting the housing to chassis you can either use the round bottom plate from Thingiverse or you can use my [mount](https://github.com/AK-Homberger/ESP32CAM_RC-CAR/blob/master/ESP32Cam-Mount2.stl) instead. The servo arm has to be connected with bottom part with [metal wire](Servo.JPG). For the lenght of the connection wire you have to try a bit. For me, 20 mm worked well.
+The ESP32CAM is located in a 3D printed housing. The files are available on [Thingiverse](https://www.thingiverse.com/thing:3579507). For mounting the housing to chassis you can either use the round bottom plate from Thingiverse or you can use my [mount](ESP32Cam-Mount2.stl) instead. The servo arm has to be connected with bottom part with [metal wire](Servo.JPG). For the lenght of the connection wire you have to try a bit. For me, 20 mm worked well.
 
 The 9g Micro Servo have to be placed and screwed into the 3D housing.
 
