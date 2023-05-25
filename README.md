@@ -1,15 +1,15 @@
 # ESP32CAM RC Car
 
 This repository shows how to build a WLAN controlled RC Car with an ESP32CAM.
-With a web interface you can control the car and the camera view is shown in the browser. It is possible to move the camera up and down with a small servo attached to the housing. Here is a small [Video](https://www.dropbox.com/s/yz9jac4miu72km5/IMG_2094.MOV?dl=0).
+With a web interface you can control the car and the camera view is shown in the browser. 
+
+It is possible to move the camera up and down with a small servo attached to the housing. Here is a small [Video](https://www.dropbox.com/s/yz9jac4miu72km5/IMG_2094.MOV?dl=0).
 
 ![RC-Car1](RC-Car1.JPG)
 
-
-
 ## Hardware
 All necessary parts are listed below in the parts section with links to order. 
-As chassis, I use the Joy-IT ROBOT CAR KIT 01. This is easy to mount. Just follow the assembling instructions. The two motors left and right are connected in parallel. Make sure that the move in the same direction when powered.
+As chassis, I use the Joy-IT ROBOT CAR KIT 01. This is easy to mount. Just follow the assembling instructions. The two motors left and right are connected in parallel. Make sure that they move in the same direction when powered.
 
 As motor driver the L298N is used. The left/right motor is the connected to the two outputs on the motor driver. Make sure that direction is right for forward/backwards for both sides. If necessary change the cable connection. 
 
@@ -31,7 +31,6 @@ You need an external (FTDI) programmer to install the (initial) sketch on the ES
 For programming you have to connect IO0 to GND, RX/TX (crossed) and 5V/GND. If you have the power supply already connected, then do not connect the 5V cable from the adapter. Then press the "RST" button on the ESP32-CAM. After that, you can start the upload process within the Arduino IDE (with FTDI USB-Serial port selected). For normal start open IO0 from GND and press "RST" again. 
 
 After initial programming you can du uploads via OTA. Device name "RC-Car".
-
 
 ## Web Control
 The RC car can be controlled with a small web interface. Just start the car. The ESPCAM LED is flashing 5 times.
