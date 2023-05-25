@@ -5,7 +5,7 @@ With a web interface you can control the car and the camera view is shown in the
 
 ![RC-Car1](RC-Car1.JPG)
 
-![Video](https://www.dropbox.com/s/yz9jac4miu72km5/IMG_2094.MOV?dl=0)
+[Video](https://www.dropbox.com/s/yz9jac4miu72km5/IMG_2094.MOV?dl=0)
 
 ## Hardware
 All necessary parts are listed below in the parts section with links to order. 
