@@ -15,14 +15,14 @@ As motor driver the L298N is used. The left/right motor is the connected to the 
 
 The motor driver is also providing the 5 Volt for the ESP32CAM. Ther power supply for the servo is done with an extra 7805 voltage regulator. This was necessary due to stability problems if ESP and Servo is supplied directly from the motor driver.
 
-The ESP32CAM is located in a 3D printed housing. The files are available on [Thingiverse](https://www.thingiverse.com/thing:3579507). For mounting the housing to chassis you can either use the round bottom plate from Thingiverse or you can use my [mount](https://github.com/AK-Homberger/ESP32CAM_RC-CAR/blob/master/ESP32Cam-Mount.stl) instead. The servo arm has to be connected with bottom part with metal wire (see Thingiverse pictures).
+The ESP32CAM is located in a 3D printed housing. The files are available on [Thingiverse](https://www.thingiverse.com/thing:3579507). For mounting the housing to chassis you can either use the round bottom plate from Thingiverse or you can use my [mount](https://github.com/AK-Homberger/ESP32CAM_RC-CAR/blob/master/ESP32Cam-Mount.stl) instead. The servo arm has to be connected with bottom part with metal wire (see Thingiverse pictures). For the lenght of the connection wire you have to try a bit. For me, 20 mm worked well.
 
 The components have to be connected as shown in the diagram. As battery you can use anything between 7.4 to 11.1 Volt. I'm using a 11.1 Volt lithium polymer accu from a RC helicopter.
 
 ![Wiring](ESP32-CAM-RC-Car.jpg)
 
 ## Software
-The RC Car ![Code](https://github.com/AK-Homberger/ESP32CAM_RC-CAR/blob/master/ESP32CAM-RC-Car/ESP32CAM-RC-Car.ino) is prepared for the Arduino IDE. To intall the sketch, download the whole repository and then open the file "ESP32CAM-RC-Car.ino" in the IDE. Then edit the code to adjust the WLAN credential according to your local settings. That's it. As board please use the "ESP32 Wrover Module" in Arduino IDE. And please make sure you have the ESP32 board URL provided in the prefeneces (https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json).
+The RC Car ![Code](https://github.com/AK-Homberger/ESP32CAM_RC-CAR/blob/master/ESP32CAM-RC-Car/ESP32CAM-RC-Car.ino) is prepared for the Arduino IDE. To install the sketch, download the whole repository and then open the file "ESP32CAM-RC-Car.ino" in the IDE. Then edit the code to adjust the WLAN credentials according to your local needs. That's it. As board please select the "ESP32 Wrover Module" in the Arduino IDE. And please make sure you have the ESP32 board URL provided in the preferences (https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json).
 
 You need an external (FTDI) programmer to install the (initial) sketch on the ESP32-CAM module. You have to set the voltage of the adapter to 5 Volt.
 
@@ -30,14 +30,14 @@ You need an external (FTDI) programmer to install the (initial) sketch on the ES
 
 For programming you have to connect IO0 to GND, RX/TX (crossed) and 5V/GND. If you have the power supply already connected, then do not connect the 5V cable from the adapter. Then press the "RST" button on the ESP32-CAM. After that, you can start the upload process within the Arduino IDE (with FTDI USB-Serial port selected). For normal start open IO0 from GND and press "RST" again. 
 
-After initial programming you can du uploads via OTA. Device name "RC-Car".
+After initial programming you can du uploads via OTA. Device name is "RC-Car".
 
 ## Web Control
-The RC car can be controlled with a small web interface. Just start the car. The ESPCAM LED is flashing 5 times.
+The RC car can be controlled with a small web interface. Just power the car. The ESPCAM LED is flashing 5 times.
 
 If your client is supporting MDNS the you can simly enter "rd-car.local" in the address field. Otherwise you have to provide the IP-Address (shown in Serial Monitor after programming).
 
-To start the stream just pess the "Start Stream" button. You can move forwards/backwards and left/right. With "Flash" you can set the power of the internal LED. With "Speed" you can adjust the speed of the car. With "Servo" you can move the camera view up and down. With "Quality/Resolution" you can define the camera settings for both options. With "Get Still" you can take a picture.
+To start the stream, just pess the "Start Stream" button. You can move forwards/backwards and left/right. With "Flash" you can set the power of the internal LED. With "Speed" you can adjust the speed of the car. With "Servo" you can move the camera view up and down. With "Quality/Resolution" you can define the camera settings for both options. With "Get Still" you can take a picture.
 
 ![Interface](Web-Interface.png)
 
