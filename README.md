@@ -42,9 +42,9 @@ After initial programming you can do uploads via OTA. Device name is "RC-Car".
 ## Web Control
 The RC car can be controlled with a small web interface. Just power the car. The ESPCAM LED is flashing 5 times.
 
-If your client is supporting MDNS the you can simly enter "rc-car.local" in the address field. Otherwise you have to provide the IP-Address (shown in Serial Monitor after programming).
+If your client is supporting MDNS, then you can simply enter "rc-car.local" in the address field. Otherwise you have to provide the IP-Address (shown in Serial Monitor after programming).
 
-To start the stream, just pess the "Start Stream" button. You can move forwards/backwards and left/right. With "Flash" you can set the power of the internal LED. With "Speed" you can adjust the speed of the car. With "Servo" you can move the camera view up and down. With "Quality/Resolution" you can define the camera settings for both options. With "Get Still" you can take a picture.
+To start the stream, just press the "Start Stream" button. You can move forward/backward and left/right. With "Flash" you can set the power of the internal LED. With "Speed" you can adjust the speed of the car. With "Servo" you can move the camera view up and down. With "Quality/Resolution" you can define the camera settings for both options. With "Get Still" you can take a picture.
 
 ![Interface](Web-Interface.png)
 
