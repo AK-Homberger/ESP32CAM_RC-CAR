@@ -37,7 +37,7 @@ You need an external (FTDI) programmer to install the (initial) sketch on the ES
 
 For programming you have to connect IO0 to GND, RX/TX (crossed) and 5V/GND. If you have the power supply already connected, then do not connect the 5V cable from the adapter. Then press the "RST" button on the ESP32-CAM. After that, you can start the upload process within the Arduino IDE (with FTDI USB-Serial port selected). For normal start open IO0 from GND and press "RST" again. 
 
-After initial programming you can du uploads via OTA. Device name is "RC-Car".
+After initial programming you can do uploads via OTA. Device name is "RC-Car".
 
 ## Web Control
 The RC car can be controlled with a small web interface. Just power the car. The ESPCAM LED is flashing 5 times.
