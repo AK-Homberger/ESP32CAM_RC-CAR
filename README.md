@@ -16,7 +16,7 @@ On the chassis, you can screw the camera to the top plate using one of the pre-d
 
 The two motors left and right are connected (soldered) in [parallel](Motor.jpg). Make sure that they move in the same direction when powered. As motor driver the L298N is used. The left/right motor is the connected to the two outputs on the motor driver. Make sure that direction is right for forward/backwards for both sides. If necessary change the cable connection. 
 
-The motor driver is also providing the 5 Volt for the ESP32CAM. The power supply for the servo is done with an extra 7805 voltage regulator. This was necessary due to stability problems if ESP and Servo is supplied directly from the motor driver.
+The motor driver is also providing the 5 Volt for the ESP32CAM. The power supply for the servo is done with an extra 7805 voltage regulator. This was necessary due to stability problems, if ESP and Servo is supplied directly from the motor driver.
 
 The ESP32CAM is located in a 3D printed housing. The files are available on [Thingiverse](https://www.thingiverse.com/thing:3579507). For mounting the housing to chassis you can either use the round bottom plate from Thingiverse or you can use my [mount](ESP32-CAM_Mount2.stl) instead. The servo arm has to be connected with bottom part with [metal wire](Servo.JPG). For the lenght of the connection wire you have to try a bit. For me, 20 mm worked well.
 
