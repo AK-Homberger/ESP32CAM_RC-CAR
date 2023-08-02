@@ -29,7 +29,7 @@ As battery you can use anything between 7.4 to 11.1 Volt. I'm using a 11.1 Volt 
 ![Wiring](ESP32-CAM-RC-Car.jpg)
 
 ## Software
-The RC Car ![Code](https://github.com/AK-Homberger/ESP32CAM_RC-CAR/blob/master/ESP32CAM-RC-Car/ESP32CAM-RC-Car.ino) is prepared for the Arduino IDE. To install the sketch, download the whole repository and then open the file "ESP32CAM-RC-Car.ino" in the IDE. Then edit the code to adjust the WLAN credentials according to your local needs. That's it. As board please select the "ESP32 Wrover Module" in the Arduino IDE. And please make sure you have the ESP32 board URL provided in the preferences (https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json). And select board version 1.0.6. Otherwise you will get compile errors regarding missing header files.
+The RC Car ![Code](https://github.com/AK-Homberger/ESP32CAM_RC-CAR/blob/master/ESP32CAM-RC-Car/ESP32CAM-RC-Car.ino) is prepared for the Arduino IDE. To install the sketch, download the whole repository and then open the file "ESP32CAM-RC-Car.ino" in the IDE. Then edit the code to adjust the WLAN credentials according to your local needs. That's it. As board please select the "AI Thinker ESP32-CAM" or "ESP32 Wrover Module" in the Arduino IDE. And please make sure you have the ESP32 board URL provided in the preferences (https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json). And select board version 1.0.6. Otherwise you will get compile errors regarding missing header files.
 
 You need an external (FTDI) programmer to install the (initial) sketch on the ESP32-CAM module. You have to set the voltage of the adapter to 5 Volt.
 
